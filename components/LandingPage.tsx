@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import FluidBackground from './FluidBackground';
 import { TabID } from '../App';
@@ -36,10 +35,15 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSearchTrigger, onTabChange 
       {/* Hero Section */}
       <main className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center">
         <div className="max-w-5xl space-y-10 animate-fade-in-up">
-          {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.05] text-white transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01] hover:text-zinc-300 cursor-default select-none">
-            the highest level of basketball legends begins here.
-          </h1>
+          {/* Main Headline Group */}
+          <div className="space-y-3">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.05] text-white transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01] hover:text-zinc-300 cursor-default select-none">
+              the highest level of basketball legends begins here.
+            </h1>
+            <p className="text-[10px] md:text-xs font-medium text-white/20 tracking-tight select-none">
+              (you guys are addicted to roblox)
+            </p>
+          </div>
 
           {/* CTA Buttons Stack */}
           <div className="flex flex-col items-center gap-4 pt-6">
