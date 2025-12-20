@@ -419,23 +419,23 @@ const rulesData = [
 
 // --- Standings Data ---
 const westernStandings = [
-  { rank: 1, team: 'Los Angeles Clippers', w: 6, l: 0, gb: '0' },
+  { rank: 1, team: 'Los Angeles Clippers', w: 7, l: 0, gb: '0' },
   { rank: 2, team: 'Dallas Mavericks', w: 5, l: 1, gb: '1.0' },
   { rank: 3, team: 'Los Angeles Lakers', w: 4, l: 2, gb: '2.0' },
-  { rank: 4, team: 'Denver Nuggets', w: 4, l: 2, gb: '2.0' },
-  { rank: 5, team: 'Memphis Grizzlies', w: 1, l: 5, gb: '5.0' },
+  { rank: 4, team: 'Denver Nuggets', w: 4, l: 3, gb: '2.0' },
+  { rank: 5, team: 'Memphis Grizzlies', w: 2, l: 6, gb: '5.0' },
   { rank: 6, team: 'Minnesota Timberwolves', w: 0, l: 6, gb: '6.0' },
   { rank: 7, team: 'Oklahoma City Thunder', w: 0, l: 8, gb: '7.0' }
 ];
 
 const easternStandings = [
-  { rank: 1, team: 'Toronto Raptors', w: 6, l: 1, gb: '0' },
-  { rank: 2, team: 'Milwaukee Bucks', w: 5, l: 2, gb: '1.0' },
+  { rank: 1, team: 'Toronto Raptors', w: 6, l: 2, gb: '0' },
+  { rank: 2, team: 'Milwaukee Bucks', w: 6, l: 2, gb: '1.0' },
   { rank: 3, team: 'Chicago Bulls', w: 4, l: 2, gb: '1.5' },
-  { rank: 4, team: 'Orlando Magic', w: 4, l: 3, gb: '2.0' },
+  { rank: 4, team: 'Orlando Magic', w: 5, l: 3, gb: '2.0' },
   { rank: 5, team: 'Miami Heat', w: 3, l: 3, gb: '2.5' },
-  { rank: 6, team: 'Boston Celtics', w: 2, l: 5, gb: '4.0' },
-  { rank: 7, team: 'Atlanta Hawks', w: 1, l: 5, gb: '4.5' }
+  { rank: 6, team: 'Boston Celtics', w: 3, l: 5, gb: '4.0' },
+  { rank: 7, team: 'Atlanta Hawks', w: 1, l: 7, gb: '4.5' }
 ];
 
 // --- College Data ---
