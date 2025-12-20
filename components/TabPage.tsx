@@ -967,7 +967,7 @@ const TabPage: React.FC<TabPageProps> = ({ tabId, onBack, onTabChange }) => {
             <div className="space-y-6">
               <div className="space-y-1">
                 <h3 className="text-xl font-black text-zinc-900 uppercase tracking-tight">Legacy Sheet</h3>
-                <p className="text-sm font-medium text-zinc-400">Upload / paste your Google Sheets link here later.</p>
+                <p className="text-sm font-medium text-zinc-400">check back later. rahbizzy is stinky.</p>
               </div>
               <div className="w-full rounded-[2.5rem] overflow-hidden border border-zinc-100 shadow-xl bg-zinc-50 relative aspect-[4/5] md:aspect-video lg:h-[700px] transition-all duration-500 hover:shadow-2xl">
                  <div className="absolute inset-0 flex items-center justify-center flex-col gap-4 text-center p-8">
