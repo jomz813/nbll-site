@@ -186,16 +186,6 @@ const hallOfFameMembers: HOFMember[] = [
     stats: '2,076 PTS • 169 AST • 111 REB • 74 STL'
   }
 ];
-
-const eligibilityRules = [
-  '1x Championship Ring',
-  '2x Finals Appearances',
-  '25x+ Total POTG / DPOTG',
-  '4x Seasons Played',
-  '5x Awards',
-  'Ring Riding does not count'
-];
-
 // --- Team Rosters List (Filtered to active teams only) ---
 const teamRosterList = [
   'Clippers', 'Mavericks', 'Nuggets', 'Lakers', 'Grizzlies', 'Timberwolves', 'Thunder', 'Hawks', 'Celtics', 'Bulls', 'Heat', 'Bucks', 'Magic', 'Raptors'
