@@ -816,7 +816,7 @@ const TabPage: React.FC<TabPageProps> = ({ tabId, onBack, onTabChange }) => {
                         className={`grid grid-cols-[1fr_7rem_4rem] md:grid-cols-[1fr_12rem_4rem_6rem] px-6 py-5 items-center transition-colors hover:bg-zinc-50/30 group ${member.role === 'FO' ? 'bg-zinc-50/10' : ''}`}
                       >
                         <div className="flex items-center gap-3">
-                          <span className="text-sm font-bold text-zinc-900">{member.name}</span>
+                          <span className="text-sm font-bold text-[#D4AF37]">{member.name}</span>
                           {member.role === 'FO' && (
                             <span className="px-2 py-0.5 rounded text-[8px] font-black uppercase tracking-widest text-white shadow-sm" style={{ backgroundColor: teamColor }}>FO</span>
                           )}
@@ -921,7 +921,7 @@ const TabPage: React.FC<TabPageProps> = ({ tabId, onBack, onTabChange }) => {
                         <span className="text-[10px] font-black text-zinc-400 tracking-widest uppercase">legend</span>
                       </div>
                       <div className="absolute bottom-4 left-6 right-6">
-                        <h4 className="text-2xl font-black text-zinc-900 tracking-tighter group-hover:text-[#D4AF37] transition-colors drop-shadow-sm">
+                        <h4 className="text-2xl font-black text-[#D4AF37] tracking-tighter drop-shadow-sm">
                           {member.name}
                         </h4>
                       </div>
