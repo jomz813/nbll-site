@@ -132,6 +132,7 @@ const teamToSlug: Record<string, string> = {
 // --- Hall of Fame Data ---
 interface HOFMember {
   name: string;
+  image?: string;
   awards?: string[];
   stats?: string;
 }
@@ -139,6 +140,7 @@ interface HOFMember {
 const hallOfFameMembers: HOFMember[] = [
   { 
     name: 'Pansho',
+    image: '/hof/pansho.png',
     awards: ['HOF', '5x CHAMP', '1x MVP', '2x FMVP', '3x OPOTY', '1x ROTY', '4x AS', '7x POTS', '25x+ POTG', '13x DPOTG'],
     stats: '2,278 PTS • 341 AST • 134 REB • 177 STL'
   },
@@ -901,9 +903,19 @@ const TabPage: React.FC<TabPageProps> = ({ tabId, onBack, onTabChange }) => {
                   >
                     <div className="aspect-[16/11] bg-zinc-50 relative overflow-hidden shrink-0">
                       <div className="absolute inset-0 bg-gradient-to-br from-zinc-100 via-zinc-200 to-zinc-300 opacity-50" />
-                      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                        <span className="text-[11px] font-black text-[#D4AF37]/50 uppercase tracking-[0.2em] text-center px-4">Image coming soon</span>
-                      </div>
+                     {member.image ? (
+  <img
+    src={member.image}
+    alt={`${member.name} headshot`}
+    className="absolute inset-0 h-full w-full object-cover"
+  />
+) : (
+  <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <span className="text-[11px] font-black text-[#D4AF37]/50 uppercase tracking-[0.2em] text-center px-4">
+      Image coming soon
+    </span>
+  </div>
+)}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#D4AF37]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       <div className="absolute top-4 right-4 px-3 py-1 bg-white/80 backdrop-blur-md rounded-full border border-zinc-200">
                         <span className="text-[10px] font-black text-zinc-400 tracking-widest uppercase">legend</span>
