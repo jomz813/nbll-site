@@ -887,26 +887,6 @@ const TabPage: React.FC<TabPageProps> = ({ tabId, onBack, onTabChange }) => {
         {/* Hall of Fame Specialized View */}
         {tabId === 'hall-of-fame' ? (
           <div className="space-y-16 animate-page-enter">
-            {/* Eligibility Section */}
-            <div className="bg-zinc-50 border border-zinc-100 rounded-[1.5rem] md:rounded-[2rem] p-6 md:p-8 shadow-sm border-l-[6px] border-l-[#D4AF37]">
-              <div className="flex items-center gap-3 mb-6">
-                <div className={`${accentText}`}>
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-black text-zinc-900 uppercase tracking-tight">Eligibility</h3>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
-                {eligibilityRules.map((rule, idx) => (
-                  <div key={idx} className="flex items-center gap-3 py-1 group transition-all">
-                    <span className={`w-1 h-1 rounded-full ${accentBg} shrink-0 opacity-60`} />
-                    <span className="text-[13px] md:text-[14px] font-bold text-zinc-700 tracking-tight leading-tight">{rule}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
 
             {/* Inducted Members Section */}
             <div className="space-y-10">
