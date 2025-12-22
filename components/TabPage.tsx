@@ -146,7 +146,7 @@ const hallOfFameMembers: HOFMember[] = [
   },
   { 
     name: 'Tend',
-    image: '/hof/tend.png',
+    image: '/hof/tend.gif',
     awards: ['HOF', '2x CHAMP', '2x FMVP', '1x ROTY', '1x MIP', '3x AS', '2x RS', '2x POTS', '15x+ POTG', '15x+ DPOTG'],
     stats: '1,712 PTS • 745 AST • 192 REB • 140 STL'
   },
