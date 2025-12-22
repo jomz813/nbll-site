@@ -140,7 +140,7 @@ interface HOFMember {
 const hallOfFameMembers: HOFMember[] = [
   { 
     name: 'Pansho',
-    image: '/hof/pansho.png',
+    image: '/hof/pansho.gif',
     awards: ['HOF', '5x CHAMP', '1x MVP', '2x FMVP', '3x OPOTY', '1x ROTY', '4x AS', '7x POTS', '25x+ POTG', '13x DPOTG'],
     stats: '2,278 PTS • 341 AST • 134 REB • 177 STL'
   },
@@ -164,6 +164,7 @@ const hallOfFameMembers: HOFMember[] = [
   },
   { 
     name: 'Dannygreen',
+    image: '/hof/dannygreen.gif',
     awards: ['HOF', '1x CHAMP', '1x FMVP', '2x AS', '15x+ POTG', '7x DPOTG'],
     stats: '1,007 PTS • 674 AST • 145 REB • 132 STL'
   },
