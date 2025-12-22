@@ -152,13 +152,13 @@ const hallOfFameMembers: HOFMember[] = [
   },
   { 
     name: 'Packed',
-    image: '/hof/packed.gif',
+    image: '/hof/packed2.gif',
     awards: ['HOF', '2x CHAMP', '1x FMVP', '4x AS', '25x+ POTG', '3x DPOTG'],
     stats: '2,784 PTS • 153 AST • 140 REB • 126 STL'
   },
   { 
     name: 'Marsh',
-    image: '/hof/marsh.gif',
+    image: '/hof/marsh2.gif',
     awards: ['HOF', '2x CHAMP', '1x MVP', '1x FMVP', '1x DPOTY', '1x POTS', '15x+ DPOTG'],
     stats: '1,712 PTS • 745 AST • 192 REB • 140 STL'
   },
@@ -182,7 +182,7 @@ const hallOfFameMembers: HOFMember[] = [
   },
   { 
     name: 'Dre',
-    image: '/hof/dre.gif',
+    image: '/hof/dre2.gif',
     awards: ['HOF', '2x CHAMP', '1x 5MOTY', '1x MIP', '3x AS', '2x RS', '1x POTS', '19x POTG', '5x DPOTG', '1X VEINY DIH'],
     stats: '2,076 PTS • 169 AST • 111 REB • 74 STL'
   }
