@@ -15,11 +15,10 @@ const HERO_TITLES = [
   "qotd: who has the most aura? answer: blixer",
   "dm @jomz for sinful freaky pics and vids",
   "i think it's safe to say we all have a crush on coves",
-  "Why is polar the main character of basketball legends",
+  "why is polar the main character of basketball legends",
 ];
 
 const LandingPage: React.FC<LandingPageProps> = ({ onSearchTrigger, onTabChange }) => {
-  const [subtext, setSubtext] = useState('(you guys are addicted to roblox)');
   
   // Randomly select title on initial render
   const [heroTitle] = useState(() => {
@@ -59,12 +58,6 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSearchTrigger, onTabChange 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.05] text-white transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01] hover:text-zinc-300 cursor-default select-none">
               {heroTitle}
             </h1>
-            <p 
-              onClick={() => setSubtext('jewbizzy')}
-              className="text-[10px] md:text-xs font-medium text-white/20 tracking-tight select-none cursor-pointer hover:text-white/40 transition-colors"
-            >
-              {subtext}
-            </p>
           </div>
 
           {/* CTA Buttons Stack */}
