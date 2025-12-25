@@ -12,8 +12,8 @@ const HERO_TITLES = [
   "pansho is lowkey moving different today.",
   "$5 to sleep on call with punkmonk monday - friday!",
   "rahbizzy is the greatest jumpstealer of all time.",
-  "qotd: who has the most aura? answer: blixer!"
-  "dm @jomz for sinful freaky pics and vids!"
+  "qotd: who has the most aura? answer: blixer!",
+  "dm @jomz for sinful freaky pics and vids!",
   "i think it's safe to say we all have a crush on 1luv"
 ];
 
