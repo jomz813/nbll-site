@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import FluidBackground from './FluidBackground';
 import { TabID } from '../App';
 
@@ -7,7 +7,25 @@ interface LandingPageProps {
   onTabChange: (tabId: TabID) => void;
 }
 
+const HERO_TITLES = [
+  "nah drexel is so strong and veiny rn...",
+  "pansho is lowkey moving different today.",
+  "$5 to sleep on call with punkmonk monday - friday!",
+  "rahbizzy is the greatest jumpstealer of all time.",
+  "qotd: who has the most aura? answer: blixer!"
+  "dm @jomz for sinful freaky pics and vids!"
+  "i think it's safe to say we all have a crush on 1luv"
+];
+
 const LandingPage: React.FC<LandingPageProps> = ({ onSearchTrigger, onTabChange }) => {
+  const [subtext, setSubtext] = useState('(you guys are addicted to roblox)');
+  
+  // Randomly select title on initial render
+  const [heroTitle] = useState(() => {
+    const randomIndex = Math.floor(Math.random() * HERO_TITLES.length);
+    return HERO_TITLES[randomIndex];
+  });
+
   // Keyboard shortcut for search
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -38,10 +56,13 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSearchTrigger, onTabChange 
           {/* Main Headline Group */}
           <div className="space-y-3">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.05] text-white transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01] hover:text-zinc-300 cursor-default select-none">
-              the highest level of basketball legends begins here.
+              {heroTitle}
             </h1>
-            <p className="text-[10px] md:text-xs font-medium text-white/20 tracking-tight select-none">
-              (you guys are addicted to roblox)
+            <p 
+              onClick={() => setSubtext('jewbizzy')}
+              className="text-[10px] md:text-xs font-medium text-white/20 tracking-tight select-none cursor-pointer hover:text-white/40 transition-colors"
+            >
+              {subtext}
             </p>
           </div>
 
