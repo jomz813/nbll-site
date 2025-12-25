@@ -8,13 +8,14 @@ interface LandingPageProps {
 }
 
 const HERO_TITLES = [
-  "nah drexel is so strong and veiny rn...",
-  "pansho is lowkey moving different today.",
-  "$5 to sleep on call with punkmonk monday - friday!",
-  "rahbizzy is the greatest jumpstealer of all time.",
-  "qotd: who has the most aura? answer: blixer!",
-  "dm @jomz for sinful freaky pics and vids!",
-  "i think it's safe to say we all have a crush on 1luv"
+  "nah drexel is so strong and veiny rn",
+  "pansho is lowkey moving different today",
+  "$5 to sleep on call with punkmonk monday - friday",
+  "rahbizzy is the greatest jumpstealer of all time",
+  "qotd: who has the most aura? answer: blixer",
+  "dm @jomz for sinful freaky pics and vids",
+  "i think it's safe to say we all have a crush on coves",
+  "Why is polar the main character of basketball legends",
 ];
 
 const LandingPage: React.FC<LandingPageProps> = ({ onSearchTrigger, onTabChange }) => {
